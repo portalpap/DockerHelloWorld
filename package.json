@@ -1,0 +1,22 @@
+{
+  "name": "jan-12-lesson",
+  "version": "1.0.0",
+  "description": "MTEC docker lesson3",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Docker",
+    "MTEC",
+    "node",
+    "express"
+  ],
+  "author": "Cole Nelson",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "os": "^0.1.2"  
+  }
+}
