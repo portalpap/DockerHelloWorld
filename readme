@@ -1,0 +1,7 @@
+>----- Important commands -----<
+
+$ docker swarm init
+
+$ docker stack deploy -c docker-compose.yaml demo
+
+$ docker stack rm demo

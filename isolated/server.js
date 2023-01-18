@@ -14,6 +14,6 @@ app.get('/', (req, res) => {
     );
 });
 
-app.listen(3333, '0.0.0.0', () => {
+app.listen(3000, '0.0.0.0', () => {
     console.log('\x1b[36m%s\x1b[0m',`listening on port 3333`);
 });

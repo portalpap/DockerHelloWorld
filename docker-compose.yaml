@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  aa-app:
+    image: myapp
+    ports:
+      - "3000:3333"
+    deploy:
+      replicas: 2
+  bb-app:
+    image: myapp
+    ports:
+      - "3001:3333"
+    deploy:
+      replicas: 2
